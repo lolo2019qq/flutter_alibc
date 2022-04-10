@@ -15,15 +15,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.dependency 'AlibcTradeSDK'
-  s.dependency 'AliAuthSDK'
-  s.dependency 'mtopSDK'
-  s.dependency 'securityGuard'
-  s.dependency 'AliLinkPartnerSDK'
-  s.dependency 'BCUserTrack'
-  s.dependency 'UTDID'
-  s.dependency 'AlipaySDK'
-  s.dependency 'WindVane'
 
   s.vendored_frameworks ="AliBaichuan/Frameworks/*.framework"
   s.resource = "AliBaichuan/Resources/*.bundle"
